@@ -87,3 +87,4 @@ CREATE TABLE pagamento (
 -- Índices (opcionais)
 CREATE INDEX idx_pedido_cliente ON pedido(id_cliente);
 CREATE INDEX idx_produto_categoria ON produto(id_categoria);
+
